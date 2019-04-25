@@ -1,0 +1,21 @@
+public class Note
+{
+  private String tone;
+  private int duration;
+  
+  public Note(String tone, int duration)
+  {
+    tone = this.tone;
+    duration = this.duration;
+  }
+  
+  public void changeTone(String t)
+  {
+    tone = t;
+  }
+  
+  public void changeDuration(int d)
+  {
+    duration = d;
+  }
+}
